@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        body {
+            background-color:rgb(217 218 223);
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #googleLogo{
+            width: 40px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border:none;
+            background-color: rgb(245, 248, 248);
+            margin-bottom: 30px;
+            margin-left: 10px;            
+        }
+        #googleLogo img{
+            height: 400px;
+            width: 400px;
+            
+        }
+
+        h1 {
+            text-align: center;
+        }
+    
+        input {
+            margin-top: 5px;
+            height: 50px;
+            width: 500px;
+            font-size: 16px;
+            border-radius: 25px;
+            background-color: transparent white;
+         margin-top: 50px;
+            margin-bottom: 20px;
+            border: none;
+            text-align: center;
+        }
+    
+        .circle {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border:none;
+            background-color: rgb(245, 248, 248);
+            margin-bottom: 10px;
+            margin-left: 10px; 
+           }
+    
+        #search {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .circles {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .circle img{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+           
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+<div  id="googleLogo" > <img src="/assets/social.png" alt=""></div>
+
+    <div id="search">
+        <input type="text" placeholder="Search Google or type a url">
+    </div>
+
+    <div class="circles">
+        <div class="circle"><img src="/assets/facebook.png" alt=""></div>
+        <div class="circle"><img src="/assets/github.png" alt=""></div>
+        <div class="circle"><img src="/assets/linkedin.png" alt=""></div>
+        <div class="circle"><img src="/assets/discord.png" alt=""></div>
+    </div>
+</body>
+
+</html>
