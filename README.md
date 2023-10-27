@@ -1,6 +1,6 @@
 # MERN_00
 # Git Processes
-#Change : we add , delete , modify the code.
+# Change : we add , delete , modify the code.
 # Stage : we put it into a box this process is called Stage.
 # Commit: in coomit we pack the box. 
 # Push : we upload or save on the remote server.
