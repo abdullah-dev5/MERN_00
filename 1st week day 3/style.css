@@ -1,0 +1,107 @@
+
+*{
+    margin: 0px;
+}
+
+
+nav{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap : 70px
+    
+}
+
+nav button{
+    font-size: 15px;
+    padding: 5px;
+    ;
+    border: none;
+    background: none;
+}
+
+
+nav button:hover{
+    background-color: antiquewhite;
+}
+.content{
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    
+}
+
+.profileBar{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.profileBar img{
+    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.profileBar h1{
+
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400 bolder;
+}
+
+.profileBar h2{
+    font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200 ;
+
+}
+.profileBar button
+{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid black;   
+}
+
+.profileBar .followingStatus
+{
+    display: flex;
+    justify-content:start;
+    gap: 20px
+}
+.profileBar .followingStatus button{
+    font-size: 15px;
+    height: 50px;
+    width: 100px;
+    
+    background: none;
+    border:  none;
+
+
+}
+.profileBar .acountlinks{
+
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+.profileBar h3{
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 300;
+
+
+}
+
+
+.readme{
+    height: 100vh;
+    width: 70%;
+    padding: 40px;
+    border:1px solid black;
+    margin: 20px;
+}
