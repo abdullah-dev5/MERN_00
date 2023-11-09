@@ -1,0 +1,48 @@
+.container{
+
+    width : 500px;
+    height: 500px;    
+    display:block;
+    }
+    
+    .outputs{
+    
+    display: block;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    
+    }
+    
+
+  .outputs label {
+
+    font-size: medium;
+    margin: 20px;
+    border: 2px solid white;
+
+
+  }
+.outputs output{
+
+      width: 300px;
+      height: 150px;
+    /* border : 2px solid white ;*/
+      padding: 20px;
+}
+
+
+    .buttons{
+    margin: 20px;
+    display: flex;
+    justify-content: start;
+    gap :30px;
+    padding: 20px;
+    
+    }
+    
+    .buttons button{
+      width: 70px;
+      height: 40px;
+      
+    }
