@@ -26,9 +26,11 @@ function App() {
           {todos.map((todoItem, index) => (
             <div className=" flex flex-row gap-5" key={index}>
              <div className="border border-1 border-blue-200">
-             Text: {todoItem.text}
+        <table>
+        Text: {todoItem.text}
+              
               &nbsp; status: {todoItem.status ? "Completed ":"Pending"}
-             
+ </table>            
              </div>
               <button className=" p-1 border border-2 border-purple-500 bg-purple-400 text-white rounded "
                 onClick={async () => {
