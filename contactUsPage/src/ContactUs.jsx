@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './contactUs.css'
 import Swal from 'sweetalert2'
-function App() {
+function ContactUs() {
 // or via CommonJS
 
   const [fullName, setfullName] = useState("");
@@ -43,4 +43,4 @@ function App() {
   )
 }
 
-export default App
+export default ContactUs;

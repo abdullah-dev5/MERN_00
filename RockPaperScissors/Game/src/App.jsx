@@ -89,8 +89,8 @@ function App() {
           <button
             onClick={() => {
               setUser("ROCK");
-              handlComp();
-              handleResults(user,comp);
+             this.handlComp();
+            this.handleResults(user,comp);
               console.log(user);
               console.log(comp);
               console.log(output);
@@ -103,8 +103,8 @@ function App() {
             onClick={() => {
              
               setUser("SCISSORS");
-              handlComp();
-              handleResults(user,comp);
+              this.handlComp();
+              this.handleResults(user,comp);
               console.log(user);
               console.log(comp);
               console.log(output);
@@ -116,8 +116,8 @@ function App() {
           <button
             onClick={() => {
               setUser("PAPER");
-              handlComp();
-              handleResults(user,comp);
+             this.handlComp();
+            this.handleResults(user,comp);
               console.log(user);
               console.log(comp);
               console.log(output);

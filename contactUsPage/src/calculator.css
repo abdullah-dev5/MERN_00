@@ -1,0 +1,97 @@
+.container{
+    margin: 5px;
+    width: 95%;
+    height: 520px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: cornsilk;
+}
+.wrapper{
+ 
+    width: 500px;
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    background-color: bisque;
+    border-radius: 7px;
+    margin-left:350px ;
+}
+.wrapper h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+.inputs{
+            margin: 20px;
+            width: 90%;
+            height: 70px;
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+}
+.inputs input{
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+
+.buttons{
+
+        display: flex;
+        justify-content:center;
+        gap: 10px;
+}
+.buttons button{
+        height: 50px;
+        width: 70px;
+        background-color: blueviolet;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius:  5px;
+        border-top-left-radius:  5px;
+        border-bottom-right-radius:  5px;
+        color: aliceblue;
+    }
+.results{
+
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+            padding: 10px;
+}
+.results label{
+    margin: 10px;
+    width: 100px;
+    height: 20px;
+
+    text-align: center;
+    color:black;
+        border-bottom: 2px solid darkgrey;
+    border-radius: 5px;
+      
+}
+.results output{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    text-align: center;
+    color:black;
+        border: 2px solid darkgrey;
+    border-radius: 5px;
+       
+}
