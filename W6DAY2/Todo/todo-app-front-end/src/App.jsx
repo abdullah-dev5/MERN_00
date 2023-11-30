@@ -3,7 +3,7 @@ import "./App.css";
 import { useEffect } from "react";
 import React from "react";
 import axios from "axios";
-
+import Table from "./Table";
 function App() {
   const [todos, setTodos] = useState([]);
   const [text, setText] = useState("");
@@ -26,11 +26,9 @@ function App() {
           {todos.map((todoItem, index) => (
             <div className=" flex flex-row gap-5" key={index}>
              <div className="border border-1 border-blue-200">
-        <table>
-        Text: {todoItem.text}
-              
+             Text: {todoItem.text}
+            
               &nbsp; status: {todoItem.status ? "Completed ":"Pending"}
- </table>            
              </div>
               <button className=" p-1 border border-2 border-purple-500 bg-purple-400 text-white rounded "
                 onClick={async () => {
