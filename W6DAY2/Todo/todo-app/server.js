@@ -23,6 +23,7 @@ app.use(router);
 const TodoSchema = new mongoose.Schema({
   text: String,
   status: Boolean,
+  date : String,
 });
 
 const TodoModel = mongoose.model("Todos", TodoSchema);
@@ -67,8 +68,8 @@ router.delete('/todo/:id', async (req, res) => {
 
 router.post("/todo", async (req, res) => {
   console.log(req.body);
-  const { text, status } = req.body;
-  const todoCreated = new TodoModel({ status: status, text: text });
+  const { text, status,date } = req.body;
+  const todoCreated = new TodoModel({ status: status, text: text ,date: date });
   todoCreated.save();
   res.json(todoCreated);
 });
