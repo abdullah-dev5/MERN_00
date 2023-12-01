@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (<React.Fragment>
-    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
+    <header className="border border-b-2 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
   <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
     <div className="flex items-center justify-between">
       <a className="flex-none text-xl font-semibold dark:text-white" href="#">CreSent</a>
@@ -16,13 +16,14 @@ const Navbar = () => {
     </div>
     <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
       <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-        <Link  className="font-medium text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" to="/" aria-current="page" >Dashboard</Link>
-        <Link to="/table" className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" >Tasks</Link >
-        <Link to="/about" className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" >About</Link>
+        <Link  className="font-medium rounded-md p-2 text-blue-500 scale-95 hover:bg-blue-500  hover:scale-100 hover:text-white  dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" to="/" aria-current="page" >Dashboard</Link>
+        <Link to="/table" className="font-medium rounded-md p-2 scale-95 hover:scale-100  hover:bg-blue-500  text-blue-500 hover:text-white dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" >Tasks</Link >
+        <Link to="/about" className="font-medium rounded-md p-2 scale-95 hover:scale-100 hover:bg-blue-500  text-blue-500 hover:text-white dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" >About</Link>
       </div>
     </div>
   </nav>
 </header>
+    
   </React.Fragment>
   )
 }

@@ -52,7 +52,10 @@ const Table = () => {
                 <td className="px-6 py-4">
                   {todoItem.status ? "Completed " : "Pending"}
                 </td>
-                <td className="px-6 py-4"></td>
+                <td className="px-6 py-4">
+                 {
+                  todoItem.date
+                 } </td>
                 <td className="px-6 py-4">
                   <button
                     className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -72,7 +75,7 @@ const Table = () => {
 
                 <td className="px-6 py-4">
                 <button
-                    className="p-2  font-medium text-white bg-blue-600 dark:bg-blue-500 hover:underline rounded border border-1 border-purple-500"
+                    className="p-2  font-medium text-white bg-blue-600 dark:bg-blue-500 hover:underline rounded border border-1 border-blue-500"
                     onClick={async () => {
                       const id = todoItem._id;
                         console.log("ID in React :"+id)
