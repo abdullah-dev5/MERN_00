@@ -4,7 +4,7 @@ const  mongoose = require('mongoose');
 const PersonSchema = new mongoose.Schema(
 {
     username : String,
-    role :{ type: String, default:user },
+    role :{ type: String, default:"user" },
     email : String 
 }   
 
